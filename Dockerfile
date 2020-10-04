@@ -8,9 +8,9 @@ LABEL "com.github.actions.color"="blue"
 LABEL repository="https://github.com/josephbmanley/zappa-deploy-action"
 LABEL maintainer="Joseph Manley <joseph@cloudsumu.com>"
 
-RUN yum install python3 -y
+RUN yum install python3 python3-pip -y
 
-RUN pip install zappa
+RUN pip3 install virtualenv
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
