@@ -2,7 +2,7 @@
 set -e
 
 # Move to project directory
-cd $1
+cd $GITHUB_WORKSPACE/$1
 
 # Config AWS profile
 mkdir -p ~/.aws
