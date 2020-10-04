@@ -25,6 +25,7 @@ echo " DEBUG"
 echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
 pwd
 whoami
+ls
 echo "WORKSPACE: ${GITHUB_WORKSPACE}"
 
 pip install -r requirements.txt
