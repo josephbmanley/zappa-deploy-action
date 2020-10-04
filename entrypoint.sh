@@ -19,6 +19,14 @@ source ./.venv/bin/activate
 
 # Install requirements
 pip install zappa
+
+echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+echo " DEBUG"
+echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+pwd
+whoami
+echo "WORKSPACE: ${GITHUB_WORKSPACE}"
+
 pip install -r requirements.txt
 
 {
