@@ -10,5 +10,5 @@ LABEL maintainer="Joseph Manley <joseph@cloudsumu.com>"
 
 USER root
 ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
