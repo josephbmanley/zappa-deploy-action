@@ -1,0 +1,7 @@
+test:
+    app_function: test.app
+    aws_region: us-east-1
+    profile_name: default
+    project_name: zappa-deploy-test
+    runtime: python3.7
+    s3_bucket: zappa-deploy-action-test-deploy
