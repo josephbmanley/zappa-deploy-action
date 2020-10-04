@@ -9,9 +9,6 @@ pip install virtualenv
 virtualenv .venv
 source ./.venv/bin/activate
 
-# Install Zappa
-pip install zappa
-
 # Install requirements
 pip install -r requirements.txt
 
